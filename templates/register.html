@@ -13,40 +13,43 @@
         <div class="row">
             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
              <table class="table table-borderless">
-                 <tr>
-                    <td>Student Name</td>
-                    <td><input type="text" class ="form-control"></td>
-                 </tr>
-                 <tr>
-                     <td>College Name</td>
-                     <td><input type="text" class ="form-control"></td>
-                 </tr>
-                 <tr>
-                     <td>Branch</td>
-                     <td><input type="text" class ="form-control"></td>
-                 </tr>
-                 <tr>
-                    <td>Admission Number</td>
-                    <td><input type="text" class ="form-control"></td>
-                </tr>
-                 <tr>
-                    <td>Date Of Birth</td>
-                    <td><input type="date" class ="form-control"></td>
-                </tr>
-                <tr>
-                    <td>Password</td>
-                    <td><input type="password" class ="form-control"></td>
-                </tr>
-                <tr>
-                    <td>Confirm Password</td>
-                    <td><input type="password" class ="form-control"></td>
-                </tr>
-                 <tr>
-                     <td></td>
-                     <td><button class="btn btn-success">REGISTER</button></td>
-                 </tr>
-                 
-             </table>
+                 <form action="/register" method="post">
+
+                    <tr>
+                        <td>Student Name</td>
+                        <td><input name="name" type="text" class ="form-control"></td>
+                     </tr>
+                     <tr>
+                         <td>College Name</td>
+                         <td><input name="college_name" type="text" class ="form-control"></td>
+                     </tr>
+                     <tr>
+                         <td>Branch</td>
+                         <td><input name="branch" type="text" class ="form-control"></td>
+                     </tr>
+                     <tr>
+                        <td>Admission Number</td>
+                        <td><input name="admno" type="text" class ="form-control"></td>
+                    </tr>
+                     <tr>
+                        <td>Date Of Birth</td>
+                        <td><input name="dob" type="date" class ="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input name="pass" type="password" class ="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password</td>
+                        <td><input name="cnf_pass" type="password" class ="form-control"></td>
+                    </tr>
+                     <tr>
+                         <td></td>
+                         <td><button class="btn btn-success">REGISTER</button></td>
+                     </tr>
+                     
+                 </table>
+                 </form>
              </div>
         </div>
     </div>
